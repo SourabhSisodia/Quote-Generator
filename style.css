@@ -94,3 +94,15 @@ button:active{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+@media screen and (max-width:1000px) {
+   .quote-container{
+       margin: auto 10px;
+   } 
+   .quote-text{
+       font-size: 2.25rem;
+   }
+   .long-text{
+        font-size: 1.75rem;
+   }
+}
